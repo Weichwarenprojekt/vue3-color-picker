@@ -1,27 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <div class="app">
+        <ColorPicker></ColorPicker>
+    </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import ColorPicker from "@/color-picker/ColorPicker.vue";
 
 export default defineComponent({
-  name: "App",
-  components: {
-    HelloWorld,
-  },
+    name: "App",
+    components: {
+        ColorPicker,
+    },
 });
 </script>
 
 <style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import "styles/global";
+
+.app {
+    padding: 16px;
 }
 </style>
