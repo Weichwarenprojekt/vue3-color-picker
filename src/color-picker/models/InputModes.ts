@@ -3,7 +3,7 @@
  * (second section)
  */
 export enum InputModes {
-    RGB = "rgb",
-    HSV = "hsv",
-    HSL = "hsl",
+    RGB = "RGB",
+    HSV = "HSV",
+    HSL = "HSL",
 }

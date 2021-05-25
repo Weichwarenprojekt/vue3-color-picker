@@ -3,7 +3,7 @@
  * (first section)
  */
 export enum SelectModes {
-    NORMAL = "normal",
-    SPECTRUM = "spectrum",
-    GRID = "grid",
+    NORMAL = "Normal",
+    SPECTRUM = "Spectrum",
+    GRID = "Grid",
 }
